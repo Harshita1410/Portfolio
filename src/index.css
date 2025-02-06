@@ -1,0 +1,13 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(218, 219, 198);
+  color: #333;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
