@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+.home {
+  background-color: #e3f2fd   ;
+}
+
+.about {
+  background-color: #fce4ec;
+}
+
+.projects {
+  background-color: #e8f5e9;
+}
+
+.contact {
+  background-color: #fff3e0;
+}
