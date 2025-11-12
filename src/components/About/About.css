@@ -9,17 +9,17 @@
   }
   
   .about p {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
     color: #ecf0f1;  
     font-family: 'Arial', sans-serif;
-    text-align: center;
+    text-align: justify;
   }
   
   .about-content {
     max-width: 80%;
     text-align: left;
-    font-size: 18px;
+    font-size: 8px;
     color: #ecf0f1;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -31,7 +31,7 @@
   }
   
   h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #ecf0f1;
     margin-bottom: 20px;
     text-decoration: underline;
@@ -64,7 +64,46 @@
     content: "• ";
     color: #3498db;  
   }
-  
+  .internship-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.internship-box h3 {
+  font-size: 20px;
+  color: #ecf0f1;
+  margin-bottom: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.internship-duration {
+  font-size: 16px;
+  color: #95a5a6;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.internship-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.internship-box li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+}
+
+.internship-box li::before {
+  content: "• ";
+  color: #3498db;
+}
+
   
   @keyframes fadeIn {
     from {
